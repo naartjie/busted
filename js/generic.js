@@ -23,7 +23,8 @@ Rainbow.extend([
     },
     {
         'name': 'comment',
-        'pattern': /\/\*[\s\S]*?\*\/|(\/\/|\#)[\s\S]*?$/gm
+        'pattern': /--/gm
+        // 'pattern': /\/\*[\s\S]*?\*\/|(\/\/|\#)[\s\S]*?$/gm
     },
     {
         'name': 'constant.numeric',
